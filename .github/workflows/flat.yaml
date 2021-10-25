@@ -6,7 +6,7 @@ on:
       - .github/workflows/flat.yaml
   workflow_dispatch:
   schedule:
-    - cron: '*/720 * * * *'
+    - cron: '*/36000 * * * *'
     
 jobs:
   scheduled:
